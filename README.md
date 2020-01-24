@@ -41,8 +41,7 @@ list of instructions will be implemented.
   * bne
   * bl
   * lsl (immediate)
-  * neg.
-
+  
 The byte memory operations are particularly tricky. The C++ implementation of 
 the simulator only reads and writes memory on a word granularity (4 bytes at a 
 time), so make sure you work within that constraint.
